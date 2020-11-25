@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="398.038" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\BDDFramework\BDDFramework\target\test-classes;E:\BDDFramework\BDDFramework\target\classes;C:\Users\Admin\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Admin\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Users\Admin\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Admin\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Admin\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Users\Admin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire2117842256994205149\surefirebooter8538829881437296040.jar C:\Users\Admin\AppData\Local\Temp\surefire2117842256994205149 2020-11-25T13-34-01_336-jvmRun1 surefire2895009581647475667tmp surefire_09199228058722525920tmp"/>
+    <property name="surefire.test.class.path" value="E:\BDDFramework\BDDFramework\target\test-classes;E:\BDDFramework\BDDFramework\target\classes;C:\Users\Admin\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Admin\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Users\Admin\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Admin\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Admin\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Users\Admin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="E:\BDDFramework\BDDFramework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire2117842256994205149\surefirebooter8538829881437296040.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="E:\BDDFramework\BDDFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\Admin\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature" classname="Runner.TestRunner" time="145.371">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h3 class=&quot;cursor-p&quot;&gt;...&lt;/h3&gt; is not clickable at point (1072, 492). Other element would receive the click: &lt;div class=&quot;asa bgnd-white pstn-fxd show-on-desktop&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-NB5G9QP&apos;, ip: &apos;192.168.29.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: aa2d8c1e056f25daec86a9c95cb4c1c4" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa2d8c1e056f25daec86a9c95cb4c1c4
+	at Runner.TestRunner.feature(TestRunner.java:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa2d8c1e056f25daec86a9c95cb4c1c4
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Feature: Fod feature
+INFO    2020-11-25 13:34:06,014 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario execution is started************************
+ INFO    2020-11-25 13:34:06,056 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:34:28,486 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:34:28,819 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:34:30,847 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:34:30,975 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:34:31,144 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:34:32,324 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:34:32,496 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:34:35,748 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:34:45,522 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:34:58,843 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:35:01,845 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+Title of the page : Dubai - SERP | Teletext Holidays
+
+  Background: serp page display                   # Fod.feature:3
+    Given user is on TT Homepage                  # HomeSteps.user_is_on_TT_Homepage()
+    When enter destination and departfrom         # HomeSteps.enter_destination_and_departfrom()
+    When select date                              # HomeSteps.select_date()
+    When select nights and guests                 # HomeSteps.select_nights_and_guests()
+    When click on search button                   # HomeSteps.click_on_search_button()
+    Then verify search results are displayed      # SerpSteps.verify_search_results_are_displayed()
+    When user verify title                        # SerpSteps.user_verify_title()
+    When user select the hotel                    # SerpSteps.user_select_the_hotel()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+        (Session info: chrome=87.0.4280.66)
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: aa2d8c1e056f25daec86a9c95cb4c1c4
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+      	at com.utilities.CommonUtilityManager.clickOnFirstListElement(CommonUtilityManager.java:102)
+      	at pageobjects.SerpPage.selectHotel(SerpPage.java:72)
+      	at stepdefinitions.SerpSteps.user_select_the_hotel(SerpSteps.java:58)
+      	at ?.When user select the hotel(Fod.feature:11)
+
+    Then verify hotel information section display # FodSteps.verify_hotel_information_section_display()
+ERROR   2020-11-25 13:35:03,968 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario is  failed  ************************
+ INFO    2020-11-25 13:35:03,968 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:35:04,918 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario execution is started************************
+ INFO    2020-11-25 13:35:04,918 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
+  @home
+  Scenario: Hotel Information display scenario    # Fod.feature:15
+    When user verify title                        # SerpSteps.user_verify_title()
+    When user verify Url                          # SerpSteps.user_verify_Url()
+    Then verify hotel information section display # FodSteps.verify_hotel_information_section_display()
+INFO    2020-11-25 13:35:15,904 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:35:16,136 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:35:17,513 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:35:17,615 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:35:17,754 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:35:18,922 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:35:19,108 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:35:22,307 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:35:31,958 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:35:40,852 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:35:43,865 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+Title of the page : Dubai - SERP | Teletext Holidays
+
+  Background: serp page display                   # Fod.feature:3
+    Given user is on TT Homepage                  # HomeSteps.user_is_on_TT_Homepage()
+    When enter destination and departfrom         # HomeSteps.enter_destination_and_departfrom()
+    When select date                              # HomeSteps.select_date()
+    When select nights and guests                 # HomeSteps.select_nights_and_guests()
+    When click on search button                   # HomeSteps.click_on_search_button()
+    Then verify search results are displayed      # SerpSteps.verify_search_results_are_displayed()
+    When user verify title                        # SerpSteps.user_verify_title()
+    When user select the hotel                    # SerpSteps.user_select_the_hotel()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+        (Session info: chrome=87.0.4280.66)
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: c5924c96ec96c4353494b225b9753933
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+      	at com.utilities.CommonUtilityManager.clickOnFirstListElement(CommonUtilityManager.java:102)
+      	at pageobjects.SerpPage.selectHotel(SerpPage.java:72)
+      	at stepdefinitions.SerpSteps.user_select_the_hotel(SerpSteps.java:58)
+      	at ?.When user select the hotel(Fod.feature:11)
+
+    Then verify hotel information section display # FodSteps.verify_hotel_information_section_display()
+ERROR   2020-11-25 13:35:45,600 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario is  failed  ************************
+ INFO    2020-11-25 13:35:45,600 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:35:46,452 [main] stepdefinitions.Hooks  - *************************Carona text display scenario execution is started************************
+ INFO    2020-11-25 13:35:46,453 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
+  # And close browser
+  @home
+  Scenario: NearBy Hotel display scenario    # Fod.feature:22
+    When user verify title                   # SerpSteps.user_verify_title()
+    When user verify Url                     # SerpSteps.user_verify_Url()
+    Then verify nearby hotel section display # FodSteps.verify_nearby_hotel_section_display()
+INFO    2020-11-25 13:35:58,826 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:35:58,995 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:36:00,313 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:36:00,431 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:36:00,573 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:36:01,739 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:36:01,910 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:36:05,093 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:36:14,774 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:36:25,610 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:36:28,615 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+Title of the page : Dubai - SERP | Teletext Holidays
+
+  Background: serp page display                   # Fod.feature:3
+    Given user is on TT Homepage                  # HomeSteps.user_is_on_TT_Homepage()
+    When enter destination and departfrom         # HomeSteps.enter_destination_and_departfrom()
+    When select date                              # HomeSteps.select_date()
+    When select nights and guests                 # HomeSteps.select_nights_and_guests()
+    When click on search button                   # HomeSteps.click_on_search_button()
+    Then verify search results are displayed      # SerpSteps.verify_search_results_are_displayed()
+    When user verify title                        # SerpSteps.user_verify_title()
+    When user select the hotel                    # SerpSteps.user_select_the_hotel()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+        (Session info: chrome=87.0.4280.66)
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49945}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: b1db2f744ba706a092eec1390c25dbe9
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+      	at com.utilities.CommonUtilityManager.clickOnFirstListElement(CommonUtilityManager.java:102)
+      	at pageobjects.SerpPage.selectHotel(SerpPage.java:72)
+      	at stepdefinitions.SerpSteps.user_select_the_hotel(SerpSteps.java:58)
+      	at ?.When user select the hotel(Fod.feature:11)
+
+    Then verify hotel information section display # FodSteps.verify_hotel_information_section_display()
+ERROR   2020-11-25 13:36:30,286 [main] stepdefinitions.Hooks  - *************************Carona text display scenario is  failed  ************************
+ INFO    2020-11-25 13:36:30,286 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
+  #  And close browser
+  @home
+  Scenario: Carona text display scenario    # Fod.feature:29
+    When user verify title                  # SerpSteps.user_verify_title()
+    When user verify Url                    # SerpSteps.user_verify_Url()
+    Then verify Carona text section display # FodSteps.verify_Carona_text_section_display()
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.WARN
+log4j:ERROR Could not instantiate appender named "WARN".
+log4j:WARN No such property [maxBackupIndex] in org.apache.log4j.DailyRollingFileAppender.
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 38117
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 25, 2020 1:34:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 24609
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 25, 2020 1:35:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 27163
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 25, 2020 1:35:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="Runner.TestRunner" time="83.661"/>
+  <testcase name="feature" classname="Runner.TestRunner" time="165.507">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h3 class=&quot;cursor-p&quot;&gt;...&lt;/h3&gt; is not clickable at point (1072, 492). Other element would receive the click: &lt;div class=&quot;asa bgnd-white pstn-fxd show-on-desktop&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;DESKTOP-NB5G9QP&apos;, ip: &apos;192.168.29.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0f246f375171bfe80d623ef4d6452c02" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0f246f375171bfe80d623ef4d6452c02
+	at Runner.TestRunner.feature(TestRunner.java:37)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0f246f375171bfe80d623ef4d6452c02
+]]></failure>
+    <system-out><![CDATA[Feature: serp feature
+INFO    2020-11-25 13:37:54,850 [main] stepdefinitions.Hooks  - *************************Search results section display scenario execution is started************************
+ INFO    2020-11-25 13:37:54,850 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:38:06,113 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:38:06,279 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:38:07,590 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:38:07,687 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:38:07,824 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:38:09,015 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:38:09,175 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:38:12,378 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:38:21,967 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:38:32,573 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:38:35,581 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+
+  Background: serp page display              # Serp.feature:3
+    Given user is on TT Homepage             # HomeSteps.user_is_on_TT_Homepage()
+    When enter destination and departfrom    # HomeSteps.enter_destination_and_departfrom()
+    When select date                         # HomeSteps.select_date()
+    When select nights and guests            # HomeSteps.select_nights_and_guests()
+    When click on search button              # HomeSteps.click_on_search_button()
+    Then verify search results are displayed # SerpSteps.verify_search_results_are_displayed()
+Title of the page : Dubai - SERP | Teletext Holidays
+URL of the page : https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+INFO    2020-11-25 13:38:35,734 [main] pageobjects.SerpPage  - ***** User verified Search results are displayed *****
+ INFO    2020-11-25 13:38:35,735 [main] stepdefinitions.Hooks  - *************************Search results section display scenario is  passed  ************************
+ INFO    2020-11-25 13:38:37,391 [main] stepdefinitions.Hooks  - *************************Sort by price scenario execution is started************************
+ INFO    2020-11-25 13:38:37,391 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
+  @home
+  Scenario: Search results section display scenario # Serp.feature:12
+    When user verify title                          # SerpSteps.user_verify_title()
+    When user verify Url                            # SerpSteps.user_verify_Url()
+    Then verify search results section display      # SerpSteps.verify_search_results_section_display()
+INFO    2020-11-25 13:38:48,463 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:38:48,669 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:38:50,044 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:38:50,135 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:38:50,298 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:38:51,465 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:38:51,651 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:38:54,868 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:39:04,552 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:39:13,576 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:39:16,590 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+
+  Background: serp page display              # Serp.feature:3
+    Given user is on TT Homepage             # HomeSteps.user_is_on_TT_Homepage()
+    When enter destination and departfrom    # HomeSteps.enter_destination_and_departfrom()
+    When select date                         # HomeSteps.select_date()
+    When select nights and guests            # HomeSteps.select_nights_and_guests()
+    When click on search button              # HomeSteps.click_on_search_button()
+    Then verify search results are displayed # SerpSteps.verify_search_results_are_displayed()
+INFO    2020-11-25 13:39:16,772 [main] pageobjects.SerpPage  - ***** User verified Sorting Tab is displayed *****
+ INFO    2020-11-25 13:39:17,147 [main] pageobjects.SerpPage  - ***** User Selected the sort price *****
+ INFO    2020-11-25 13:39:17,148 [main] stepdefinitions.Hooks  - *************************Sort by price scenario is  passed  ************************
+ INFO    2020-11-25 13:39:18,438 [main] stepdefinitions.Hooks  - *************************Filter section display scenario execution is started************************
+ INFO    2020-11-25 13:39:18,438 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
+  #   And close browser
+  @home
+  Scenario: Sort by price scenario           # Serp.feature:19
+    When user verify sortbyprice tab display # SerpSteps.user_verify_sortbyprice_tab_display()
+    Then user click on sortbyprice tab       # SerpSteps.user_click_on_sortbyprice_tab()
+INFO    2020-11-25 13:39:28,608 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:39:28,773 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:39:30,281 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:39:30,387 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:39:30,524 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:39:31,699 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:39:31,883 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:39:35,111 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:39:44,722 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:39:53,163 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:39:56,164 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+
+  Background: serp page display              # Serp.feature:3
+    Given user is on TT Homepage             # HomeSteps.user_is_on_TT_Homepage()
+    When enter destination and departfrom    # HomeSteps.enter_destination_and_departfrom()
+    When select date                         # HomeSteps.select_date()
+    When select nights and guests            # HomeSteps.select_nights_and_guests()
+    When click on search button              # HomeSteps.click_on_search_button()
+    Then verify search results are displayed # SerpSteps.verify_search_results_are_displayed()
+INFO    2020-11-25 13:39:56,361 [main] pageobjects.SerpPage  - ***** User verified Filters section is displayed *****
+ INFO    2020-11-25 13:39:56,361 [main] stepdefinitions.Hooks  - *************************Filter section display scenario is  passed  ************************
+ INFO    2020-11-25 13:39:57,659 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario execution is started************************
+ INFO    2020-11-25 13:39:57,659 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
+  #  And close browser
+  @home
+  Scenario: Filter section display scenario  # Serp.feature:25
+    Then user verify filters section display # SerpSteps.user_verify_filters_section_display()
+INFO    2020-11-25 13:40:09,322 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:40:09,502 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:40:10,900 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:40:11,039 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:40:11,208 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:40:12,361 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:40:12,521 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:40:15,734 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:40:25,318 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:40:34,542 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:40:37,547 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ https://www.teletextholidays.co.uk/lh/serp#/overseas/Dubai/2020-12-17/Any_London/boardtype=anyboard/nights=6/adults=2/minstars=3/children=0
+
+  Background: serp page display              # Serp.feature:3
+    Given user is on TT Homepage             # HomeSteps.user_is_on_TT_Homepage()
+    When enter destination and departfrom    # HomeSteps.enter_destination_and_departfrom()
+    When select date                         # HomeSteps.select_date()
+    When select nights and guests            # HomeSteps.select_nights_and_guests()
+    When click on search button              # HomeSteps.click_on_search_button()
+    Then verify search results are displayed # SerpSteps.verify_search_results_are_displayed()
+ERROR   2020-11-25 13:40:39,172 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario is  failed  ************************
+ INFO    2020-11-25 13:40:39,172 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
+  #  And close browser
+  @home
+  Scenario: Select a hotel scenario               # Serp.feature:31
+    When user select the hotel                    # SerpSteps.user_select_the_hotel()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3 class="cursor-p">...</h3> is not clickable at point (1072, 492). Other element would receive the click: <div class="asa bgnd-white pstn-fxd show-on-desktop" style="display: block;">...</div>
+        (Session info: chrome=87.0.4280.66)
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'DESKTOP-NB5G9QP', ip: '192.168.29.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: 0f246f375171bfe80d623ef4d6452c02
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+      	at com.utilities.CommonUtilityManager.clickOnFirstListElement(CommonUtilityManager.java:102)
+      	at pageobjects.SerpPage.selectHotel(SerpPage.java:72)
+      	at stepdefinitions.SerpSteps.user_select_the_hotel(SerpSteps.java:58)
+      	at ?.When user select the hotel(Serp.feature:32)
+
+    Then verify hotel information section display # FodSteps.verify_hotel_information_section_display()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 30018
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 25, 2020 1:37:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 21952
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 25, 2020 1:38:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 37177
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 25, 2020 1:39:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 1326
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 25, 2020 1:40:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

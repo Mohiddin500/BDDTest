@@ -1,0 +1,6 @@
+INFO    2020-08-24 00:15:02,222 [main] stepdefinitions.Hooks  - *************************Family section display scenario execution is started************************
+ INFO    2020-08-24 00:15:02,261 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-08-24 00:16:04,092 [main] pageobjects.HomePage  - ***** Captured Title *****
+ INFO    2020-08-24 00:16:07,777 [main] pageobjects.HomePage  - ***** Family section is displayed *****
+ ERROR   2020-08-24 00:16:07,875 [main] stepdefinitions.Hooks  - *************************Family section display scenario is  passed  ************************
+ 
