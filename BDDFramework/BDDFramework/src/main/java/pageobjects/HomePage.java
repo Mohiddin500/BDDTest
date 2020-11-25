@@ -1,3 +1,4 @@
+//Author : Mohiddin
 package pageobjects;
 
 import org.apache.log4j.LogManager;
@@ -12,12 +13,14 @@ public class HomePage extends TestBase {
 
 	public SerpPage serppage;
 
+
 	By login_icon = By.xpath("//div[@class='login-icon pstn-abslt cursor-p tth-users-container']");
 	By signin_btn = By.xpath("//*[@id='loginPopup']");
 	By email_field = By.xpath("//*[@id='email']");
 	By password_field = By.xpath("//*[@id='password']");
 	By login_btn = By.xpath("//*[@id='quickstart-sign-in']");
 	By email = By.xpath("//div[@id='login-welcome-user-name']");
+
 
 	By familyholidays_section = By.xpath("//div[@class='content-middle']//div[3]");
 	By familyholidays_title = By.xpath("//div[@class='content-middle']//div[3]//span[text()='Family Holidays']");
