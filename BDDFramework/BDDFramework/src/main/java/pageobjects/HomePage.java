@@ -1,4 +1,5 @@
 //Author : Mohiddin
+//Page : HomePage
 package pageobjects;
 
 import org.apache.log4j.LogManager;
@@ -13,7 +14,7 @@ public class HomePage extends TestBase {
 
 	public SerpPage serppage;
 
-
+//HomePage objects
 	By login_icon = By.xpath("//div[@class='login-icon pstn-abslt cursor-p tth-users-container']");
 	By signin_btn = By.xpath("//*[@id='loginPopup']");
 	By email_field = By.xpath("//*[@id='email']");
@@ -54,6 +55,7 @@ public class HomePage extends TestBase {
 			Thread.sleep(1000);
 			driver.findElements(destination_list).get(0).click();
 			log.info("***** Destination Selected *****");
+			System.out.println("destination is selected");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}

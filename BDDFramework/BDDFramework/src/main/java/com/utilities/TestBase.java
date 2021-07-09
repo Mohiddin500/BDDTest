@@ -20,7 +20,7 @@ public class TestBase {
 	public void launchHomePage() {
 		
 		try {
-			
+			System.println("Launching browser from Test base class");
 			Properties prop = new Properties();
 			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\Configs\\Config.properties");
 			prop.load(fis);
