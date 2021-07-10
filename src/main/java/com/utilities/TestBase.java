@@ -52,6 +52,7 @@ public class TestBase {
 			if (driver != null)
 				driver.quit();
 			System.out.println("Browser  closed successfully...");
+			System.out.println(" Wow! its done..........");
 		} catch (Exception e) {
 			System.out.println(e);
 		}

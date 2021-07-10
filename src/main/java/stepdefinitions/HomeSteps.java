@@ -8,7 +8,8 @@ import cucumber.api.java.en.When;
 import pageobjects.HomePage;
 import pageobjects.SerpPage;
 
-
+//Author : Mogdum
+//Purpose : Homepage
 public class HomeSteps {
 
 	public HomePage homepage;
@@ -20,6 +21,7 @@ public class HomeSteps {
 		objectmanager = new PageObjectManager();
 		homepage = objectmanager.getHomePage();
 		homepage.launchHomePage();
+		System.out.println(" Launched home page");
 
 	}
 
