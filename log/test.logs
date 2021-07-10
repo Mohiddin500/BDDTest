@@ -1,0 +1,236 @@
+INFO    2020-11-25 12:51:18,977 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario execution is started************************
+ INFO    2020-11-25 12:51:18,981 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:29,092 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario execution is started************************
+ INFO    2020-11-25 12:51:29,092 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:30,770 [main] stepdefinitions.Hooks  - *************************Carona text display scenario execution is started************************
+ INFO    2020-11-25 12:51:30,770 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:32,851 [main] stepdefinitions.Hooks  - *************************Login scenario test execution is started************************
+ INFO    2020-11-25 12:51:32,852 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:34,533 [main] stepdefinitions.Hooks  - *************************Family section display scenario execution is started************************
+ INFO    2020-11-25 12:51:34,533 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:36,278 [main] pageobjects.HomePage  - ***** Captured Title *****
+ INFO    2020-11-25 12:51:36,283 [main] stepdefinitions.Hooks  - *************************Search scenario test execution is started************************
+ INFO    2020-11-25 12:51:36,283 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:38,325 [main] stepdefinitions.Hooks  - *************************Search results section display scenario execution is started************************
+ INFO    2020-11-25 12:51:38,326 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:40,235 [main] stepdefinitions.Hooks  - *************************Sort by price scenario execution is started************************
+ INFO    2020-11-25 12:51:40,235 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:41,933 [main] stepdefinitions.Hooks  - *************************Filter section display scenario execution is started************************
+ INFO    2020-11-25 12:51:41,934 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:51:43,617 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario execution is started************************
+ INFO    2020-11-25 12:51:43,617 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:54:52,546 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario execution is started************************
+ INFO    2020-11-25 12:54:52,566 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:54:57,480 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario execution is started************************
+ INFO    2020-11-25 12:54:57,480 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:54:59,677 [main] stepdefinitions.Hooks  - *************************Carona text display scenario execution is started************************
+ INFO    2020-11-25 12:54:59,678 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:55:01,904 [main] stepdefinitions.Hooks  - *************************Login scenario test execution is started************************
+ INFO    2020-11-25 12:55:01,904 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:55:03,449 [main] stepdefinitions.Hooks  - *************************Family section display scenario execution is started************************
+ INFO    2020-11-25 12:55:03,450 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:55:05,048 [main] pageobjects.HomePage  - ***** Captured Title *****
+ INFO    2020-11-25 12:55:05,056 [main] stepdefinitions.Hooks  - *************************Search scenario test execution is started************************
+ INFO    2020-11-25 12:55:05,056 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:55:06,710 [main] stepdefinitions.Hooks  - *************************Search results section display scenario execution is started************************
+ INFO    2020-11-25 12:55:06,711 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:55:09,217 [main] stepdefinitions.Hooks  - *************************Sort by price scenario execution is started************************
+ INFO    2020-11-25 12:55:09,218 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:55:10,982 [main] stepdefinitions.Hooks  - *************************Filter section display scenario execution is started************************
+ INFO    2020-11-25 12:55:10,982 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 12:55:12,781 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario execution is started************************
+ INFO    2020-11-25 12:55:12,781 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:14,239 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario execution is started************************
+ INFO    2020-11-25 13:03:14,280 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:19,108 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario execution is started************************
+ INFO    2020-11-25 13:03:19,108 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:21,257 [main] stepdefinitions.Hooks  - *************************Carona text display scenario execution is started************************
+ INFO    2020-11-25 13:03:21,257 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:23,218 [main] stepdefinitions.Hooks  - *************************Login scenario test execution is started************************
+ INFO    2020-11-25 13:03:23,218 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:24,924 [main] stepdefinitions.Hooks  - *************************Family section display scenario execution is started************************
+ INFO    2020-11-25 13:03:24,924 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:26,544 [main] pageobjects.HomePage  - ***** Captured Title *****
+ INFO    2020-11-25 13:03:26,549 [main] stepdefinitions.Hooks  - *************************Search scenario test execution is started************************
+ INFO    2020-11-25 13:03:26,549 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:28,605 [main] stepdefinitions.Hooks  - *************************Search results section display scenario execution is started************************
+ INFO    2020-11-25 13:03:28,606 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:31,975 [main] stepdefinitions.Hooks  - *************************Sort by price scenario execution is started************************
+ INFO    2020-11-25 13:03:32,000 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:35,750 [main] stepdefinitions.Hooks  - *************************Filter section display scenario execution is started************************
+ INFO    2020-11-25 13:03:35,750 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:03:38,651 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario execution is started************************
+ INFO    2020-11-25 13:03:38,651 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:08:00,666 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario execution is started************************
+ INFO    2020-11-25 13:08:00,668 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:10:16,184 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario execution is started************************
+ INFO    2020-11-25 13:10:16,185 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:10:22,451 [main] stepdefinitions.Hooks  - *************************Carona text display scenario execution is started************************
+ INFO    2020-11-25 13:10:22,451 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:10:26,321 [main] stepdefinitions.Hooks  - *************************Login scenario test execution is started************************
+ INFO    2020-11-25 13:10:26,321 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:10:28,036 [main] stepdefinitions.Hooks  - *************************Family section display scenario execution is started************************
+ INFO    2020-11-25 13:10:28,037 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:10:29,782 [main] pageobjects.HomePage  - ***** Captured Title *****
+ INFO    2020-11-25 13:10:29,790 [main] stepdefinitions.Hooks  - *************************Search scenario test execution is started************************
+ INFO    2020-11-25 13:10:29,790 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:10:35,239 [main] stepdefinitions.Hooks  - *************************Search results section display scenario execution is started************************
+ INFO    2020-11-25 13:10:35,240 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:12:53,094 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario execution is started************************
+ INFO    2020-11-25 13:12:53,097 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:12:56,927 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario execution is started************************
+ INFO    2020-11-25 13:12:56,927 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:12:59,958 [main] stepdefinitions.Hooks  - *************************Carona text display scenario execution is started************************
+ INFO    2020-11-25 13:12:59,958 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:13:02,891 [main] stepdefinitions.Hooks  - *************************Login scenario test execution is started************************
+ INFO    2020-11-25 13:13:02,891 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:13:05,125 [main] stepdefinitions.Hooks  - *************************Family section display scenario execution is started************************
+ INFO    2020-11-25 13:13:05,125 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:13:07,673 [main] pageobjects.HomePage  - ***** Captured Title *****
+ INFO    2020-11-25 13:13:07,677 [main] stepdefinitions.Hooks  - *************************Search scenario test execution is started************************
+ INFO    2020-11-25 13:13:07,677 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:13:10,493 [main] stepdefinitions.Hooks  - *************************Search results section display scenario execution is started************************
+ INFO    2020-11-25 13:13:10,493 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:13:12,718 [main] stepdefinitions.Hooks  - *************************Sort by price scenario execution is started************************
+ INFO    2020-11-25 13:13:12,718 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:13:15,604 [main] stepdefinitions.Hooks  - *************************Filter section display scenario execution is started************************
+ INFO    2020-11-25 13:13:15,605 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:13:19,258 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario execution is started************************
+ INFO    2020-11-25 13:13:19,259 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:34:06,014 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario execution is started************************
+ INFO    2020-11-25 13:34:06,056 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:34:28,486 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:34:28,819 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:34:30,847 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:34:30,975 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:34:31,144 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:34:32,324 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:34:32,496 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:34:35,748 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:34:45,522 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:34:58,843 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:35:01,845 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ ERROR   2020-11-25 13:35:03,968 [main] stepdefinitions.Hooks  - *************************Hotel Information display scenario is  failed  ************************
+ INFO    2020-11-25 13:35:03,968 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:35:04,918 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario execution is started************************
+ INFO    2020-11-25 13:35:04,918 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:35:15,904 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:35:16,136 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:35:17,513 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:35:17,615 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:35:17,754 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:35:18,922 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:35:19,108 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:35:22,307 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:35:31,958 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:35:40,852 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:35:43,865 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ ERROR   2020-11-25 13:35:45,600 [main] stepdefinitions.Hooks  - *************************NearBy Hotel display scenario is  failed  ************************
+ INFO    2020-11-25 13:35:45,600 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:35:46,452 [main] stepdefinitions.Hooks  - *************************Carona text display scenario execution is started************************
+ INFO    2020-11-25 13:35:46,453 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:35:58,826 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:35:58,995 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:36:00,313 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:36:00,431 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:36:00,573 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:36:01,739 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:36:01,910 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:36:05,093 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:36:14,774 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:36:25,610 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:36:28,615 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ ERROR   2020-11-25 13:36:30,286 [main] stepdefinitions.Hooks  - *************************Carona text display scenario is  failed  ************************
+ INFO    2020-11-25 13:36:30,286 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:36:31,249 [main] stepdefinitions.Hooks  - *************************Login scenario test execution is started************************
+ INFO    2020-11-25 13:36:31,249 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:36:41,657 [main] pageobjects.HomePage  - ***** User clicked on Login icon *****
+ INFO    2020-11-25 13:36:41,889 [main] pageobjects.HomePage  - ***** User selected signin button *****
+ INFO    2020-11-25 13:36:42,201 [main] pageobjects.HomePage  - ***** User entered Mail *****
+ INFO    2020-11-25 13:36:42,400 [main] pageobjects.HomePage  - ***** User entered password *****
+ INFO    2020-11-25 13:36:43,519 [main] pageobjects.HomePage  - ***** User clicked on Login button *****
+ INFO    2020-11-25 13:36:46,651 [main] pageobjects.HomePage  - ***** User click on login icon *****
+ INFO    2020-11-25 13:36:49,731 [main] pageobjects.HomePage  - ***** user captured the email *****
+ INFO    2020-11-25 13:36:56,068 [main] pageobjects.HomePage  - ***** User clicked on Sign out  *****
+ INFO    2020-11-25 13:36:59,071 [main] stepdefinitions.Hooks  - *************************Login scenario test is  passed  ************************
+ INFO    2020-11-25 13:37:00,282 [main] stepdefinitions.Hooks  - *************************Family section display scenario execution is started************************
+ INFO    2020-11-25 13:37:00,282 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:37:11,053 [main] pageobjects.HomePage  - ***** Captured Title *****
+ INFO    2020-11-25 13:37:11,304 [main] pageobjects.HomePage  - ***** Family section is displayed *****
+ INFO    2020-11-25 13:37:11,308 [main] stepdefinitions.Hooks  - *************************Family section display scenario is  passed  ************************
+ INFO    2020-11-25 13:37:13,319 [main] stepdefinitions.Hooks  - *************************Search scenario test execution is started************************
+ INFO    2020-11-25 13:37:13,319 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:37:24,880 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:37:25,045 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:37:26,465 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:37:26,600 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:37:26,775 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:37:27,972 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:37:28,141 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:37:31,325 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:37:40,976 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:37:50,455 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:37:53,465 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ INFO    2020-11-25 13:37:53,497 [main] stepdefinitions.Hooks  - *************************Search scenario test is  passed  ************************
+ INFO    2020-11-25 13:37:54,850 [main] stepdefinitions.Hooks  - *************************Search results section display scenario execution is started************************
+ INFO    2020-11-25 13:37:54,850 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:38:06,113 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:38:06,279 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:38:07,590 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:38:07,687 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:38:07,824 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:38:09,015 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:38:09,175 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:38:12,378 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:38:21,967 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:38:32,573 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:38:35,581 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ INFO    2020-11-25 13:38:35,734 [main] pageobjects.SerpPage  - ***** User verified Search results are displayed *****
+ INFO    2020-11-25 13:38:35,735 [main] stepdefinitions.Hooks  - *************************Search results section display scenario is  passed  ************************
+ INFO    2020-11-25 13:38:37,391 [main] stepdefinitions.Hooks  - *************************Sort by price scenario execution is started************************
+ INFO    2020-11-25 13:38:37,391 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:38:48,463 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:38:48,669 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:38:50,044 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:38:50,135 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:38:50,298 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:38:51,465 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:38:51,651 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:38:54,868 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:39:04,552 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:39:13,576 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:39:16,590 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ INFO    2020-11-25 13:39:16,772 [main] pageobjects.SerpPage  - ***** User verified Sorting Tab is displayed *****
+ INFO    2020-11-25 13:39:17,147 [main] pageobjects.SerpPage  - ***** User Selected the sort price *****
+ INFO    2020-11-25 13:39:17,148 [main] stepdefinitions.Hooks  - *************************Sort by price scenario is  passed  ************************
+ INFO    2020-11-25 13:39:18,438 [main] stepdefinitions.Hooks  - *************************Filter section display scenario execution is started************************
+ INFO    2020-11-25 13:39:18,438 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:39:28,608 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:39:28,773 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:39:30,281 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:39:30,387 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:39:30,524 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:39:31,699 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:39:31,883 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:39:35,111 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:39:44,722 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:39:53,163 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:39:56,164 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ INFO    2020-11-25 13:39:56,361 [main] pageobjects.SerpPage  - ***** User verified Filters section is displayed *****
+ INFO    2020-11-25 13:39:56,361 [main] stepdefinitions.Hooks  - *************************Filter section display scenario is  passed  ************************
+ INFO    2020-11-25 13:39:57,659 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario execution is started************************
+ INFO    2020-11-25 13:39:57,659 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ INFO    2020-11-25 13:40:09,322 [main] pageobjects.HomePage  - ***** Destination field cleared *****
+ INFO    2020-11-25 13:40:09,502 [main] pageobjects.HomePage  - ***** Destination field clicked *****
+ INFO    2020-11-25 13:40:10,900 [main] pageobjects.HomePage  - ***** Destination Selected *****
+ INFO    2020-11-25 13:40:11,039 [main] pageobjects.HomePage  - ***** Departure filed cleared *****
+ INFO    2020-11-25 13:40:11,208 [main] pageobjects.HomePage  - ***** Destination filed clicked *****
+ INFO    2020-11-25 13:40:12,361 [main] pageobjects.HomePage  - ***** Departure selected *****
+ INFO    2020-11-25 13:40:12,521 [main] pageobjects.HomePage  - ***** Selected Calendar *****
+ INFO    2020-11-25 13:40:15,734 [main] pageobjects.HomePage  - ***** Selected Date *****
+ INFO    2020-11-25 13:40:25,318 [main] pageobjects.HomePage  - ***** Selected Number of Guests *****
+ INFO    2020-11-25 13:40:34,542 [main] pageobjects.HomePage  - ***** Clicked on Find Deals Button *****
+ INFO    2020-11-25 13:40:37,547 [main] pageobjects.HomePage  - ***** Waited for 3 sec after selected find deals button *****
+ ERROR   2020-11-25 13:40:39,172 [main] stepdefinitions.Hooks  - *************************Select a hotel scenario is  failed  ************************
+ INFO    2020-11-25 13:40:39,172 [main] stepdefinitions.Hooks  - ********************************************************************************************
+ 
